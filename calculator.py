@@ -1,14 +1,10 @@
-#i am subham pal
-# i have created a calculator using the python commands 
-a=16
-b=4
-ans1=a+b
-print("the addition of ",a," and ",b," is ", ans1)
-ans2=a-b
-print("the substraction of ",a," and ",b," is ",ans2)
-ans3=a*b
-print("the multiplication of ",a," and ",b," is ",ans3)
-ans4=a/b
-print("the division of ",a," and ",b," is ",ans4)
-ans5=a**b
-print("the exponential of ",b," over ",a," is ",ans5)
+#today is my day 10 of learning python
+#today i am creating a calculator using the python commands
+a=input("enter your name:")
+print("my name is ", a) #enter your name
+b=input("the first number is:") #enter the first number
+c=input("the second number is:") #enter the second number
+print("the addition of the two numbers is ",int(b)+int(c))
+print("the substraction of the two numbers is ",int(b)-int(c))
+print("the multiplication of the two numbers is ",int(b)*int(c))
+print("the division of the two numbers is ",int(b)/int(c))
